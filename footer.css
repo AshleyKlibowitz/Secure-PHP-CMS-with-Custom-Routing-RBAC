@@ -1,0 +1,23 @@
+  /* Basic reset and styling */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Main content styling */
+.main-content {
+    flex: 1;
+    /* Allow main content to grow and fill the space */
+    padding: 20px;
+    /* Add some padding for aesthetics */
+}
+
+/* Footer styling */
+footer {
+    background-color: #007ACC;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}

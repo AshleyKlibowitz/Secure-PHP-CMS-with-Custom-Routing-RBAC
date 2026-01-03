@@ -1,0 +1,353 @@
+/* General reset for view-users-page */
+.view-users-page body,
+.view-users-page h1,
+.view-users-page h2,
+.view-users-page p,
+.view-users-page ul,
+.view-users-page li {
+    margin: 0;
+    padding: 0;
+}
+
+.view-users-page body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.view-users-page header {
+    background-color: #6A0DAD;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Container styling */
+.view-users-page .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex: 1;
+}
+
+.view-users-page .table th,
+.view-users-page .table td {
+    vertical-align: middle;
+}
+
+.view-users-page .user-count {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+.view-users-page .error {
+    color: red;
+    text-align: center;
+}
+
+.view-users-page footer {
+    background-color: #007ACC;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+/* General reset for index-page */
+.index-page body,
+.index-page h1,
+.index-page h2,
+.index-page p,
+.index-page ul,
+.index-page li {
+    margin: 0;
+    padding: 0;
+}
+
+.index-page body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.index-page header {
+    background-color: #007ACC;
+    color: #fff;
+    padding: 10px;
+    text-align: center; /* Center the header text */
+}
+
+/* Container styling */
+.index-page .container {
+    width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    min-height: 100vh;
+    overflow-y: auto;
+}
+
+/* Card styling */
+.index-page .card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+}
+
+.index-page .card strong {
+    font-weight: bold;
+    color: #007ACC;
+}
+
+.index-page .card p {
+    margin: 10px 0;
+}
+
+/* Form styling */
+.index-page form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.index-page label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.index-page input[type="text"],
+.index-page textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.index-page input[type="submit"] {
+    background-color: #007ACC;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.index-page input[type="submit"]:hover {
+    background-color: #005D91;
+}
+
+/* Pagination */
+.index-page .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.index-page .pagination a,
+.index-page .pagination .current {
+    display: inline-block;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #007ACC;
+    border: 1px solid #007ACC;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.index-page .pagination a:hover {
+    background: #0056b3;
+    color: #fff;
+}
+
+.index-page .pagination .active {
+    background: #0056b3;
+    font-weight: bold;
+}
+
+/* Sorting links styling */
+.index-page .sort-options {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.index-page .sort-options strong {
+    margin-right: 10px;
+}
+
+.index-page .sort-options a {
+    text-decoration: none;
+    color: #007ACC;
+    margin-right: 10px;
+}
+
+.index-page .sort-options a:hover {
+    text-decoration: underline;
+}
+
+/* Button styling */
+.index-page .btn {
+    background-color: #007ACC;
+    color: #fff;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.index-page .btn:hover {
+    background-color: #005D91;
+}
+
+/* Flex container for buttons */
+.index-page .btn-container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Footer styling */
+.index-page footer {
+    background-color: #007ACC;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+.view-users-body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333; /* Ensure general text color is dark */
+}
+
+.view-users-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.view-users-header {
+    text-align: center;
+    margin: 30px 0; /* Increased margin for more spacing */
+    font-size: 2.5em; /* Increased font size */
+}
+
+.view-users-count {
+    text-align: center;
+    margin: 20px 0; /* Increased margin for more spacing */
+    font-size: 1.2em;
+}
+
+.view-users-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.view-users-th {
+    background-color: #343a40; /* Thicker black background */
+    color: white; /* Header text color */
+    padding: 15px; /* Increased padding for thicker appearance */
+    text-align: left; /* Left-align header text */
+}
+
+.view-users-td {
+    vertical-align: middle;
+    padding: 15px; /* Consistent padding */
+    background-color: white; /* White background for table cells */
+    border: 1px solid #ddd; /* Light gray border */
+    text-align: left; /* Left-align the text in table cells */
+}
+
+.view-users-error {
+    color: red;
+    text-align: center;
+}
+
+/* Styles for view_blogpost page */
+.view-blogpost-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.view-blogpost-page .blogpost-container {
+    max-width: 1100px; /* Increased width */
+    margin: 70px auto; /* Ensure the container is centered */
+    padding: 60px; /* Increased padding */
+    background-color: #ffffff; /* Whiter background */
+    border-radius: 20px; /* Increased border radius */
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.2); /* More pronounced shadow */
+    border: 2px solid #ddd; /* Thicker border */
+    /* Remove position and z-index properties */
+    /* position: relative; */
+    /* z-index: 1; */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.view-blogpost-page .blogpost-container::before {
+    content: '';
+    position: absolute;
+    top: -5px; /* Adjust as needed for depth effect */
+    left: -5px; /* Adjust as needed for depth effect */
+    width: calc(100% + 10px); /* Adjust width for frame effect */
+    height: calc(100% + 10px); /* Adjust height for frame effect */
+    background-color: #f8f8f8; /* Whiter color for frame */
+    border-radius: 20px; /* Increased border radius for frame */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Lighter shadow for frame */
+    z-index: -1; /* Ensure it is behind the main container */
+    border: 1px solid #ccc; /* Add a border to the frame */
+}
+
+.view-blogpost-page .blogpost-container:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3); /* More pronounced shadow on hover */
+}
+
+.view-blogpost-page .blogpost-container h1 {
+    color: #2c3e50;
+    margin-bottom: 20px; /* Increased margin */
+    font-weight: bold;
+}
+
+.view-blogpost-page .blogpost-container p {
+    font-size: 1.2em; /* Increased font size */
+    margin: 15px 0; /* Increased margin */
+}
+
+.view-blogpost-page footer {
+    background-color: #007ACC;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto;
+}
