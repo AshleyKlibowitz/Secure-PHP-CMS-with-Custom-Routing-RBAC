@@ -6,7 +6,8 @@ This is a custom-built Content Management System (CMS) engineered from scratch u
 The system features a secure, full-stack environment where administrators can manage content and users via a protected dashboard, while registered members can engage with the community through a moderated comment system.
 
 
-<img width="826" height="463" alt="Screenshot 2026-01-02 at 9 59 09 PM" src="https://github.com/user-attachments/assets/1187bf7b-a144-4b0a-a6b2-18e4bb4f61ec" />
+<img width="904" height="500" alt="Screenshot 2026-01-02 at 10 08 16 PM" src="https://github.com/user-attachments/assets/7404fcc7-f800-4eee-9758-70139bea87ff" />
+
 
 
 ## ⚙️ Technical Highlights (The "Under the Hood" Features)
