@@ -10,7 +10,7 @@ The system features a secure, full-stack environment where administrators can ma
 
 
 
-## ⚙️ Technical Highlights (The "Under the Hood" Features)
+## ⚙️ Technical Highlights
 This project was built to demonstrate proficiency in backend architecture and security:
 
 * **Custom Routing Engine:** Implemented a `router.php` system combined with Apache `.htaccess` rewriting to handle URI parsing and deliver clean, SEO-friendly URLs (e.g., `/profile` instead of `/profile.php`).
